@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDServer", "SDServer\SDServer.csproj", "{984B8103-99FA-4E64-85C5-9DAFF2EA075A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDClient", "SDClient\SDClient.csproj", "{0F1CD18A-DDB7-4BFB-8EE6-DFC000C81877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRSLib", "..\PRSServer\PRSLib\PRSLib.csproj", "{7DF7F66B-D68D-4DDD-9326-988B6E6B2ABC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{984B8103-99FA-4E64-85C5-9DAFF2EA075A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984B8103-99FA-4E64-85C5-9DAFF2EA075A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984B8103-99FA-4E64-85C5-9DAFF2EA075A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984B8103-99FA-4E64-85C5-9DAFF2EA075A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1CD18A-DDB7-4BFB-8EE6-DFC000C81877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1CD18A-DDB7-4BFB-8EE6-DFC000C81877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1CD18A-DDB7-4BFB-8EE6-DFC000C81877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1CD18A-DDB7-4BFB-8EE6-DFC000C81877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF7F66B-D68D-4DDD-9326-988B6E6B2ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF7F66B-D68D-4DDD-9326-988B6E6B2ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF7F66B-D68D-4DDD-9326-988B6E6B2ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF7F66B-D68D-4DDD-9326-988B6E6B2ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {827C9031-0F8F-4965-9CB7-EB0036D34BD1}
+	EndGlobalSection
+EndGlobal
