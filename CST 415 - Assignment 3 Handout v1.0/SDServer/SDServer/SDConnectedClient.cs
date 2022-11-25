@@ -103,7 +103,7 @@ namespace SDServer
                                 break;
 
                             case "resume":
-
+                                HandleResume();
                                 break;
 
                             case "close":
@@ -111,6 +111,7 @@ namespace SDServer
                                 break;
 
                             case "get":
+                                HandleGet();
                                 break;
 
                             case "post":
@@ -182,9 +183,8 @@ namespace SDServer
 
         private void HandleResume()
         {
-            // TODO: SDConnectedClient.HandleResume()
-
             // handle a "resume" request from the client
+            ulong resumeSessionId = ulong.Parse(reader.ReadLine());
 
             // get the sessionId that the client just asked us to resume
             
@@ -194,10 +194,18 @@ namespace SDServer
                 if (sessionId == 0)
                 {
                     // try to resume the session in the session table
-                    // if success, remember the session that we're now using and send accepted to client
                     
-                    // if failed to resume session, send rejectetd to client
-
+                    if (sessionTable.ResumeSession(resumeSessionId))
+                    {
+                        // if success, remember the session that we're now using and send accepted to client
+                        sessionId = resumeSessionId;
+                        SendAccepted(sessionId);
+                    }
+                    else
+                    {
+                        // if failed to resume session, send rejectetd to client
+                        SendRejected("Can't resume this session!");
+                    }
                 }
                 else
                 {
@@ -245,8 +253,6 @@ namespace SDServer
 
         private void HandleGet()
         {
-            // TODO: SDConnectedClient.HandleGet()
-
             // handle a "get" request from the client
 
             // if the client has a session open
@@ -255,11 +261,15 @@ namespace SDServer
                 try
                 {
                     // get the document name from the client
-                    
+                    string documentName = reader.ReadLine();
+                    Console.WriteLine("[" + clientThread.ManagedThreadId.ToString() + "] " + "Receiving get for " + documentName);
+
                     // get the document content from the session table
-                    
+                    string documentContents = sessionTable.GetSessionValue(sessionId, documentName);
+                    Console.WriteLine("[" + clientThread.ManagedThreadId.ToString() + "] " + "Got contents " + documentContents);
+
                     // send success and document to the client
-                    
+                    SendSuccess(documentName, documentContents);
                 }
                 catch (SessionException se)
                 {
@@ -272,8 +282,8 @@ namespace SDServer
             }
             else
             {
-                // error, cannot post without a session
-                
+                // error, cannot get without a session
+                SendError("No session open, cannot get!");
             }
         }
 
@@ -289,7 +299,7 @@ namespace SDServer
                     // get the document name, content length and contents from the client
                     string documentName = reader.ReadLine();
                     int documentLength = int.Parse(reader.ReadLine());
-                    Console.WriteLine("[" + clientThread.ManagedThreadId.ToString() + "] " + "Receiving post for  " + documentName);
+                    Console.WriteLine("[" + clientThread.ManagedThreadId.ToString() + "] " + "Receiving post for " + documentName);
                     string documentContents = ReceiveDocument(documentLength);
                     Console.WriteLine("[" + clientThread.ManagedThreadId.ToString() + "] " + "Received contents: " + documentContents);
 
@@ -326,10 +336,10 @@ namespace SDServer
 
         private void SendRejected(string reason)
         {
-            // TODO: SDConnectedClient.SendRejected()
-
             // send rejected message to SD client, including reason for rejection
-            
+            writer.WriteLine("rejected");
+            writer.WriteLine(reason);
+            writer.Flush();
         }
 
         private void SendClosed(ulong sessionId)
@@ -350,11 +360,13 @@ namespace SDServer
 
         private void SendSuccess(string documentName, string documentContent)
         {
-            // TODO: SDConnectedClient.SendSuccess(documentName, documentContent)
-
             // send success message to SD client, including retrieved document name, length and content
             // NOTE: in response to a get request
-            
+            writer.WriteLine("success");
+            writer.WriteLine(documentName);
+            writer.WriteLine(documentContent.Length.ToString());
+            writer.Write(documentContent);
+            writer.Flush();
         }
 
         private void SendError(string errorString)

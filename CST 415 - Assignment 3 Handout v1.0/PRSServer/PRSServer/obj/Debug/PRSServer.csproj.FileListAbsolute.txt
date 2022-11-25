@@ -1,0 +1,55 @@
+C:\Users\C0rnel\Desktop\OIT\2022\Fall 2022\CST415\Week 1\Assignment 1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.AssemblyReference.cache
+C:\Users\C0rnel\Desktop\OIT\2022\Fall 2022\CST415\Week 1\Assignment 1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\C0rnel\Desktop\OIT\2022\Fall 2022\CST415\Week 1\Assignment 1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.CoreCompileInputs.cache
+C:\Users\C0rnel\Desktop\OIT\2022\Fall 2022\CST415\Week 1\Assignment 1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSServer.exe.config
+C:\Users\C0rnel\Desktop\OIT\2022\Fall 2022\CST415\Week 1\Assignment 1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSServer.exe
+C:\Users\C0rnel\Desktop\OIT\2022\Fall 2022\CST415\Week 1\Assignment 1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSServer.pdb
+C:\Users\C0rnel\Desktop\OIT\2022\Fall 2022\CST415\Week 1\Assignment 1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSLib.dll
+C:\Users\C0rnel\Desktop\OIT\2022\Fall 2022\CST415\Week 1\Assignment 1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSLib.pdb
+C:\Users\C0rnel\Desktop\OIT\2022\Fall 2022\CST415\Week 1\Assignment 1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.CopyComplete
+C:\Users\C0rnel\Desktop\OIT\2022\Fall 2022\CST415\Week 1\Assignment 1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.exe
+C:\Users\C0rnel\Desktop\OIT\2022\Fall 2022\CST415\Week 1\Assignment 1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.pdb
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\NEEEEEE\415-ASG1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSLib.dll
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\NEEEEEE\415-ASG1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSLib.pdb
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\NEEEEEE\415-ASG1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.AssemblyReference.cache
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\NEEEEEE\415-ASG1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\NEEEEEE\415-ASG1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.CoreCompileInputs.cache
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\NEEEEEE\415-ASG1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.exe
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\NEEEEEE\415-ASG1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.pdb
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\NEEEEEE\415-ASG1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSServer.exe.config
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\NEEEEEE\415-ASG1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSServer.exe
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\NEEEEEE\415-ASG1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSServer.pdb
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\NEEEEEE\415-ASG1\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.CopyComplete
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\New folder\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSServer.exe.config
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\New folder\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSServer.exe
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\New folder\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSServer.pdb
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\New folder\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSLib.dll
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\New folder\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSLib.pdb
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\New folder\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.AssemblyReference.cache
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\New folder\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\New folder\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.CoreCompileInputs.cache
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\New folder\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.CopyComplete
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\New folder\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.exe
+C:\Users\cornel.stoica\OneDrive - Biamp Systems, LLC\Desktop\New folder\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.pdb
+C:\Users\C0rnel\Desktop\AS1STUFFFF\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSServer.exe.config
+C:\Users\C0rnel\Desktop\AS1STUFFFF\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSServer.exe
+C:\Users\C0rnel\Desktop\AS1STUFFFF\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSServer.pdb
+C:\Users\C0rnel\Desktop\AS1STUFFFF\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSLib.dll
+C:\Users\C0rnel\Desktop\AS1STUFFFF\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\bin\Debug\PRSLib.pdb
+C:\Users\C0rnel\Desktop\AS1STUFFFF\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.AssemblyReference.cache
+C:\Users\C0rnel\Desktop\AS1STUFFFF\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\C0rnel\Desktop\AS1STUFFFF\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.CoreCompileInputs.cache
+C:\Users\C0rnel\Desktop\AS1STUFFFF\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.CopyComplete
+C:\Users\C0rnel\Desktop\AS1STUFFFF\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.exe
+C:\Users\C0rnel\Desktop\AS1STUFFFF\CST 415_Assign1_Cornel_Stoica\CST 415 - Assignment 1 Handout v1.3\PRSServer\PRSServer\obj\Debug\PRSServer.pdb
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\PRSServer\PRSServer\bin\Debug\PRSServer.exe.config
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\PRSServer\PRSServer\bin\Debug\PRSServer.exe
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\PRSServer\PRSServer\bin\Debug\PRSServer.pdb
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\PRSServer\PRSServer\bin\Debug\PRSLib.dll
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\PRSServer\PRSServer\bin\Debug\PRSLib.pdb
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.AssemblyReference.cache
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.CoreCompileInputs.cache
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\PRSServer\PRSServer\obj\Debug\PRSServer.csproj.CopyComplete
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\PRSServer\PRSServer\obj\Debug\PRSServer.exe
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\PRSServer\PRSServer\obj\Debug\PRSServer.pdb

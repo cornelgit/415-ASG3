@@ -46,6 +46,18 @@ namespace SDClient
                     {
                         SESSION_CMD = "-o";
                     }
+                    else if (args[i] == "-r")
+                    {
+                        SESSION_CMD = "-r";
+                        if ((i + 1) < args.Length)
+                        {
+                            SESSION_ID = ulong.Parse(args[++i]);
+                        }
+                        else
+                        {
+                            throw new Exception("-r expects a session id!");
+                        }
+                    }
                     else if (args[i] == "-c")
                     {
                         SESSION_CMD = "-c";
@@ -124,7 +136,9 @@ namespace SDClient
                 else if (SESSION_CMD == "-r")
                 {
                     // resume existing session
-                    
+                    Console.WriteLine("Resuming session id " + SESSION_ID.ToString());
+                    sd.ResumeSession(SESSION_ID);
+                    Console.WriteLine("Accepted session id " + SESSION_ID.ToString());
                 }
                 else if (SESSION_CMD == "-c")
                 {

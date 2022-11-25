@@ -90,18 +90,22 @@ namespace SDClient
 
         public void ResumeSession(ulong trySessionID)
         {
-            // TODO: SDClient.ResumeSession()
-
             ValidateConnected();
 
             // send resume session to the server
-            
+            SendResume(trySessionID);
+                        
             // receive server's response, hopefully confirming our sessionId
-            
+            ulong resumedSessionID = ReceiveSessionResponse();
+
             // verify that we received the same session ID that we requested
-            
+            if (trySessionID != resumedSessionID)
+            {
+                throw new Exception("Tried to resume session " + trySessionID.ToString() + ", but actually resumed " + resumedSessionID.ToString());
+            }
+
             // save opened session
-            
+            sessionID = resumedSessionID;
         }
 
         public void CloseSession()
@@ -173,10 +177,10 @@ namespace SDClient
 
         private void SendResume(ulong sessionId)
         {
-            // TODO: SDClient.SendResume()
-
             // send resume message to SD server
-            
+            writer.WriteLine("resume");
+            writer.WriteLine(sessionId.ToString());
+            writer.Flush();
         }
 
         private ulong ReceiveSessionResponse()

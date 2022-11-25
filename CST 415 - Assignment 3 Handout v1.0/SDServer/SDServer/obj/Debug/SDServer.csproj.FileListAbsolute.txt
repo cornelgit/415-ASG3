@@ -9,3 +9,14 @@ C:\Users\C0rnel\Desktop\415ASG3\CST 415 - Assignment 3 Handout v1.0\SDServer\SDS
 C:\Users\C0rnel\Desktop\415ASG3\CST 415 - Assignment 3 Handout v1.0\SDServer\SDServer\obj\Debug\SDServer.csproj.CopyComplete
 C:\Users\C0rnel\Desktop\415ASG3\CST 415 - Assignment 3 Handout v1.0\SDServer\SDServer\obj\Debug\SDServer.exe
 C:\Users\C0rnel\Desktop\415ASG3\CST 415 - Assignment 3 Handout v1.0\SDServer\SDServer\obj\Debug\SDServer.pdb
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\SDServer\SDServer\bin\Debug\SDServer.exe.config
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\SDServer\SDServer\bin\Debug\SDServer.exe
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\SDServer\SDServer\bin\Debug\SDServer.pdb
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\SDServer\SDServer\bin\Debug\PRSLib.dll
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\SDServer\SDServer\bin\Debug\PRSLib.pdb
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\SDServer\SDServer\obj\Debug\SDServer.csproj.AssemblyReference.cache
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\SDServer\SDServer\obj\Debug\SDServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\SDServer\SDServer\obj\Debug\SDServer.csproj.CoreCompileInputs.cache
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\SDServer\SDServer\obj\Debug\SDServer.csproj.CopyComplete
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\SDServer\SDServer\obj\Debug\SDServer.exe
+C:\Users\C0rnel\Desktop\AS3G\415-ASG3\CST 415 - Assignment 3 Handout v1.0\SDServer\SDServer\obj\Debug\SDServer.pdb

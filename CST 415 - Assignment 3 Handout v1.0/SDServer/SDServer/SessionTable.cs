@@ -82,10 +82,15 @@ namespace SDServer
 
         public bool ResumeSession(ulong sessionID)
         {
-            // TODO: SessionTable.ResumeSession()
-
             // returns true only if sessionID is a valid and open sesssion, false otherwise
-            return false;
+            mutex.WaitOne();
+
+            // check if session is open
+            bool isOpen = sessions.ContainsKey(sessionID);
+
+            // release and return the result
+            mutex.ReleaseMutex();
+            return isOpen;
         }
 
         public void CloseSession(ulong sessionID)
@@ -109,11 +114,33 @@ namespace SDServer
 
         public string GetSessionValue(ulong sessionID, string key)
         {
-            // TODO: SessionTable.GetSessionValue()
-
             // retrieves a session value, given session ID and key
             // throws a session exception if the session is not open or if the value does not exist by that key
-            return "TODO";
+            
+            // lock mutex to prevent other threads from changing session table
+            mutex.WaitOne();
+
+            // throws a session exception if the session is not open
+            if (!sessions.ContainsKey(sessionID))
+            {
+                // unlock mutex before fast exit from this method!
+                mutex.ReleaseMutex();
+                throw new SessionException("Session not open and so cannot get value!");
+            }
+
+            // throws a session exception if the requested key does not exist in this session
+            Session session = sessions[sessionID];
+            if (!session.values.ContainsKey(key))
+            {
+                // unlock mutex before fast exit from this method!
+                mutex.ReleaseMutex();
+                throw new SessionException("Session does not contain a value for requested key!");
+            }
+
+            // retrieve value and release mutex
+            string value = session.values[key];
+            mutex.ReleaseMutex();
+            return value;
         }
 
         public void PutSessionValue(ulong sessionID, string key, string value)

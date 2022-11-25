@@ -28,7 +28,6 @@ namespace SDServer
 
             // TODO: process the command line arguments to get the PRS ip address and PRS port number
             
-
             Console.WriteLine("PRS Address: " + PRS_ADDRESS);
             Console.WriteLine("PRS Port: " + PRS_PORT);
 
